@@ -47,6 +47,17 @@ h1, h2, h3 {
         opacity: 0.75;
     }
 }
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: wheat;
+}
+
+.navbar-default .navbar-toggle{
+    border: 2px solid wheat;
+    &:hover, &:focus{
+         background-color: #3a6186;
+    }
+    
+}
 
 
 //Home Page Styles
